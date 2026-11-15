@@ -48,3 +48,9 @@ Each node contains:
 | Static-sized data with memory-efficient storage | **Array** | Arrays are more memory-efficient because they don't require extra space for pointers. Best when the number of elements is fixed or predictable. |
 | Unknown size or avoid resizing overhead | **Linked List** | Linked lists grow dynamically as needed, making them suitable when the data size is unknown upfront or changes frequently. |
 | A lot of traversal or manipulation | **Linked List** | Linked lists offer flexibility when you need to traverse, insert, or remove nodes repeatedly. |
+
+
+## Pattern of solving linked list
+
+1. slow and fast pointer approach
+2.
