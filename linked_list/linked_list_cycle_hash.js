@@ -10,8 +10,6 @@ function MyLinkedList() {
 var hasCycle = function (head) {
 	let current = head;
 	let hasMap = new Set();
-	let b = false,
-		count = 0;
 	while (current) {
 		if (hasMap.has(current)) {
 			return true;

@@ -52,5 +52,5 @@ Each node contains:
 
 ## Pattern of solving linked list
 
-1. slow and fast pointer approach
-2.
+1. slow and fast pointer approach - find middle element
+2. Floyds algorithm (slow and fast pointer) - find cycle in a linked list
